@@ -17,7 +17,10 @@
             printf("\n Pick 1 or 2 or 3 or 4\n");
             scanf("%d",&p);
             if (p>4 || p<1)
-                continue;
+             { printf("Invalid input,Please enter the number between 1 to 4");
+             continue;}
+            
+               
             m=m-p;
             printf("\n No. of Matchsticks left=%d",m);
             c=5-p;
