@@ -14,7 +14,7 @@ void main()
        {
 
 
-          printf("%5d",i+j);  }
+          printf("%5d",i*j);  }
 
           printf("\n");
 
