@@ -6,6 +6,7 @@ void main()
         perimeter=2*(length+breadth);
         area=(length*breadth);
         printf("The area is %d and the perimeter is %d by given data",area,perimeter);
+        printf("\n\n24Ce017_Kavya");
 
 }
 
