@@ -1,14 +1,15 @@
+// This Program is prepared by 24CE017 Kavya
 #include <stdio.h>
+
 void main()
 {
-    int c,f;
-
-
+    int Celsius,Fahrenheit;
 
     printf("Enter the value of temperature in Celcius:");
-    scanf("%d",&c);
-    f=9*c/5 +32;
+    scanf("%d",&Celsius);
+    Fahrenheit=9*Celsius/5 +32;
 
-    printf("Your answer in Fahrenheit is %d ",f);
+    printf("\nYour answer in Fahrenheit is %d ",Fahrenheit);
+    printf("\n\n24Ce017_Kavya");
 
 }
