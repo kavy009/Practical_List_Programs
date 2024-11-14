@@ -1,4 +1,5 @@
- #include <stdio.h>
+// This Program is prepared by 24CE017 Kavya
+#include <stdio.h>
 
  void main()
  {
@@ -12,6 +13,7 @@
      (marks>=60 && marks<70) ? printf("Your Grade is D"):
      (marks>=50 && marks<60) ? printf("Your Grade is F"):
          printf("Sorry you are Failed");
+         printf("\n\n24Ce017_Kavya");
 
 
 
