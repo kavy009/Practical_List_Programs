@@ -2,46 +2,43 @@
 #include <stdio.h>
 void main()
 {
-    int a,b,ch;
+    int num1,num2;
+    char operator;
     printf("Enter the value of First Number:");
-    scanf("%d",&a);
+    scanf("%d",&num1);
     printf("Enter the value of Second Number:");
-    scanf("%d",&b);
-    printf("Enter 1 for Addition");
-    printf("\nEnter 2 for Subtraction");
-    printf("\nEnter 3 for Multipilcation");
-    printf("\nEnter 4 for Division/");
+    scanf("%d",&num2);
+    printf("Enter + for Addition");
+    printf("\nEnter - for Subtraction");
+    printf("\nEnter * for Multiplication");
+    printf("\nEnter / for Division\n");
     printf("\nEnter Your Choice:");
-    scanf("%d",&ch);
+    scanf(" %c", &operator);
 
 
-    switch(ch)
-    {
-        case 1 : printf("\n Addition of given two numbers is %d ",a+b);
-        break;
 
-        case 2 : printf("\n Subtraction of given two numbers is %d ",a-b);
-        break;
-
-        case 3 : printf("\n Multiplication of given two numbers is %d ",a*b);
-        break;
-
-        case 4 : printf("\n Division of given two numbers is %d ",a/b );
-        break;
-
-        default: printf("\n Invalid Input");
-        break;
-
-
+    switch (operator) {
+        case '+':
+            printf("Result: %d\n", num1 + num2);
+            break;
+        case '-':
+            printf("Result: %d\n", num1 - num2);
+            break;
+        case '*':
+            printf("Result: %d\n", num1 * num2);
+            break;
+        case '/':
+            if (num2 != 0)
+                printf("Result: %d\n", num1 / num2);
+            else
+                printf("Can't divide by zero.\n");
+            break;
+        default:
+            printf("Invalid operator.\n");
     }
 
-    printf("\n\n24Ce017_Kavya");
 
+      printf("\n\n24Ce017_Kavya");
 
-
-
-
-
-}
-
+    }
 
