@@ -1,18 +1,16 @@
 // This Program is prepared by 24CE017 Kavya
 #include<stdio.h>
 
-void main(){
+void main()
+{
+    int principal_amount=50000,TimePeriod=3,SI;
+    float Interest=5.5;
 
-      int p=50000,t=3,si;
-      float r=5.5;
+    SI= (principal_amount*Interest*TimePeriod)/100;
 
-      si=(p*r*t)/100;
-
-      printf("\n The Simple Interest is %d",si);
-       printf("\n\n24Ce017_Kavya");
-
-
-
+    printf("Simple Interest is %d ",SI);
+    printf("\n\n24Ce017_Kavya");
 
 
 }
+
