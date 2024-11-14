@@ -1,3 +1,4 @@
+// This Program is prepared by 24CE017 Kavya
 #include <stdio.h>
 void main()
 
@@ -11,13 +12,16 @@ void main()
 
     if (Ramantotalwealth>Sumantotalwealth)
     { printf("Raman possesses greater wealth than Suman\n");
-    } else if(Sumantotalwealth>Ramantotalwealth)
+    }
+    else if(Sumantotalwealth>Ramantotalwealth)
     {
         printf("Suman possesses greater wealth than Raman\n");
     }
-        else {
+        else
+            {
             printf("Raman and Suman possesses equal wealth");
-        }
+            }
+        printf("\n\n24Ce017_Kavya");
     }
 
 
