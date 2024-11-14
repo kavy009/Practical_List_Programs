@@ -9,6 +9,7 @@ void main(){
       si=(p*r*t)/100;
 
       printf("\n The Simple Interest is %d",si);
+       printf("\n\n24Ce017_Kavya");
 
 
 
