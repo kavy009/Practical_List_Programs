@@ -1,3 +1,4 @@
+// This Program is prepared by 24CE017 Kavya
 #include <stdio.h>
 void main()
 {
@@ -8,12 +9,12 @@ void main()
 
     printf("Welcome to Foodies Restaurant:\n");
     printf("Here is our Menu:\n");
-    printf("1.    Burger          ₹150\n");
-    printf("2.    Pizza           ₹200\n");
-    printf("3.    Pasta           ₹120\n");
-    printf("4.    Sandwich        ₹100\n");
-    printf("5.    French Fries    ₹80 \n");
-    printf("Enter '0' for Finish ordering.");
+    printf("1.    Burger          Rs150\n");
+    printf("2.    Pizza           Rs200\n");
+    printf("3.    Pasta           Rs120\n");
+    printf("4.    Sandwich        Rs100\n");
+    printf("5.    French Fries    Rs80 \n");
+    printf("Enter '0' for Finish ordering.\n");
 
     while(1) {
             printf("Enter the Number of item you want to order:");
@@ -43,12 +44,12 @@ void main()
             case 5:
                  totalcost+=80;
                  itemcount++;
-                 printf("French Fries added to your order.|n");
+                 printf("French Fries added to your order.\n");
                  break;
             case 0:
                  printf("Order completed.\n");
                  printf("Total number of items ordered: %d\n",itemcount);
-                 printf("Total cost of your order: ₹%d\n",totalcost);
+                 printf("Total cost of your order: Rs%d\n",totalcost);
                  return 0;
 
 
@@ -64,5 +65,6 @@ void main()
 
 
     }
+    printf("\n\n24Ce017_Kavya");
 
 }
